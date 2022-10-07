@@ -4,9 +4,16 @@
 # git diff --stage <file>
 # git reset HEAD <file> - удалить из отслеживаемых
 # git commit --amend -m "" изменить сообщение к последнему коммиту
-git show
-git log --oneline -all -graph
-git checkout <hash-commit>
-
+# git show
+# git log --oneline -all -graph
+# git checkout <hash-commit>
+# git
+# git
+# git
+# git
+# git
+# git
+# git
+# git
 
 
