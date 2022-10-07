@@ -7,7 +7,7 @@
 # git show
 # git log --oneline -all -graph
 # git checkout <hash-commit>
-# git
+# git merge <branch>
 # git
 # git
 # git
