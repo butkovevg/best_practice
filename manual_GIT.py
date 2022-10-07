@@ -5,8 +5,8 @@
 # git reset HEAD <file> - удалить из отслеживаемых
 # git commit --amend -m "" изменить сообщение к последнему коммиту
 git show
-git
-git
+git log --oneline -all -graph
+git checkout <hash-commit>
 git
 git
 git
