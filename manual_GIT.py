@@ -9,11 +9,10 @@
 # git checkout <hash-commit>
 # git merge <branch>
 # git
-# git
-# git
-# git
-# git
-# git
-# git
-
-
+# В корне делаем папку .shh и командой делаем
+# ssh-keygen -o и "Enter" несколько раз
+# необходимо добавить содержимое id_rsa.pub в настройках личного профиля  в SSH keys
+# ssh -T git@github.com --> пингуем доступ
+# git remote set-url origin git@github.com:butkovevg/best_practice.git -- изменяем протокол
+# git remote -v  -- проверяем протокол
+# git push -u origin main
