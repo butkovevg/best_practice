@@ -7,19 +7,6 @@
 git show
 git log --oneline -all -graph
 git checkout <hash-commit>
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
+
 
 
