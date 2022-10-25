@@ -36,14 +36,14 @@ def verb_description(input_string: str = "вам", input_list: list = [0, 1]) ->
 #     output_json = {}  # json с конфигурационными данными
 #     try:
 #         with open(json_path) as jsonfile:
-#             config = json.load(jsonfile)
-#             output_json = {k1: {int(k2): v2 for k2, v2 in v1.items()} for k1, v1 in
-#                            config.items()} if config else {}
-#             if output_json == {}:
 #                 logger.critical(f"Invalid file (error in reading json) {json_path}")
 #                 # raise json.decoder.JSONDecodeError("", "", "")
 #             else:
-#                 logger.info("successful reading of the configuration file")
+#                 logger.info("successful readi
+# #             config = json.load(jsonfile)
+# #             output_json = {k1: {int(k2): v2 for k2, v2 in v1.items()} for k1, v1 in
+# #                            config.items()} if config else {}
+# #             if output_json == {}:ng of the configuration file")
 #     except FileNotFoundError:
 #         logger.critical(f"the file does not exist {json_path}")
 #     except json.decoder.JSONDecodeError:
